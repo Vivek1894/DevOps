@@ -12,11 +12,11 @@ read -p "Enter your firstname: " firstname
 echo "-------------------------"
 sleep 0.5
 echo "--------------------"
-read -p "Enetr your sirname: " sirname
+read -p "Enetr your surname: " surname
 echo "--------------------"
 sleep 0.5
 echo "--------------------------------------------------"
-echo "Welcome ***$firstname $sirname***"
+echo "Welcome ***$firstname $surname***"
 echo "--------------------------------------------------"
 echo
 sleep 0.5
@@ -59,7 +59,7 @@ while true; do
 			sleep 0.5 
 		done
 		echo ""
-		echo "Thank You $firstname $sirname, See You Soon!!!!!!!!"
+		echo "Thank You $firstname $surname, See You Soon!!!!!!!!"
 		break
 	fi
 done
